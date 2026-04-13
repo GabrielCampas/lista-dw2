@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style06.css" type="text/css">
+    <title>Exercício 6 - JavaScript</title>
+</head>
+<body>
+    <h1>Exercício 6</h1>
+    <p>Vetor que lê 5 números em sequência, exibindo a média deles.</p>
+    <!--inicio form-->
+    <form name="numeros" id="numeros">
+        <label for="n1">Digite o <span id="contador">1</span>º número: </label>
+        <input type="number" name="n1" id="n1" tabindex="1">
+        <br>
+        <button type="button" onclick="proximoNum()" id="btn-add">Adicionar</button>
+    </form>
+    <!--fim form-->
+    <p> <strong>Resultado:</strong><p id="resultado"></p></p>
+    <script src="js/script06.js"></script>
+</body>
+</html>
