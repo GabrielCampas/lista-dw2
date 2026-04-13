@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style03.css" type="text/css">
+    <title>Exercício 3 - JavaScript</title>
+</head>
+<body>
+    <h1>Exercício 3</h1>
+    <h3>Calculando a área e perímetro do retângulo.</h3>
+    <img src="../imagens/retangulo.svg" alt="retângulo" width="300">
+    <!--inicio form-->
+    <form action="" id="ex03" name="ex03">
+      <label for="base">Digite a <strong>base</strong> do seu retângulo: </label>  
+      <input tabindex="1" type="number" name="base" id="base">
+      <br>
+      <label for="altura">Digite a <strong>altura</strong> do seu retângulo: </label>
+      <input tabindex="2" type="number" name="altura" id="altura">
+      <br>
+      <button type="submit" name="btn-calculo" tabindex="3" onclick="calcularRetangulo()">Calcular</button>
+    </form>
+    <!--fim form-->
+    <p><strong>Área:</strong> <p id="area"></p></p>
+    <p><strong>Perímetro:</strong> <p id="perimetro"></p></p>
+    <script src="js/script03.js"></script>
+</body>
+</html>

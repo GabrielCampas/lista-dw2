@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style02.css" type="text/css" />
+    <title>Exercício 2 - JavaScript</title>
+  </head>
+  <body>
+    <h1>Exercício 2</h1>
+    <!--inicio form-->
+    <form action="" id="ex02" name="ex02">
+      <p>Insira dois números nos campos abaixo:</p>
+      <label for="numero1">Número 1:</label>
+      <input type="number" name="numero1" id="numero1" tabindex="1" required />
+      <label for="numero">Número 2:</label>
+      <input type="number" name="numero2" id="numero2" tabindex="2" required />
+      <br />
+      <button
+        type="submit"
+        name="btn-somar"
+        tabindex="3"
+        onclick="calcularTudo()">
+        Iniciar operações
+      </button>
+      <h3><strong>Resultados:</strong></h3>
+      <p id="somar"></p>
+      <p id="subtracao"></p>
+      <p id="multiplicacao"></p>
+      <p id="divisao"></p>
+    </form>
+    <!--fim form-->
+    <script src="js/script02.js"></script>
+  </body>
+</html>
